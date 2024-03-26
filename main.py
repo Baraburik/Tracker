@@ -3,8 +3,8 @@ from deep_sort_realtime.deepsort_tracker import DeepSort
 
 tracker = DeepSort(max_age=5)
 
-video_path = 'rtsp://admin:QWEqwe123@192.168.1.64:554/ISAPI/Streaming/Channels/101'
-model = YOLO('yolov8n.pt')
+video_path = 'rtsp://admin:QWEqwe123@192.168.1.64:554/ISAPI/Streaming/Channels/101' #
+model = YOLO('yolov8n.pt')  # put your weights
 results = model(video_path, show=True)
 
 for result in results:
