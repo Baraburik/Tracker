@@ -3,7 +3,7 @@
     - requirements.txt
 
 2. Install:
-    - Install ultralytics - ```pip install ultralytics ```
+    - Install ultralytics - ```pip install ultralytics```
     - Install deepSORT - ```cd deep_sort_realtime``` && ```pip3 install .```
 
 3. Run code:
