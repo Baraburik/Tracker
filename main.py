@@ -98,5 +98,5 @@ class ObjectDetection():
         cv2.destroyAllWindows()
 
 
-detector = ObjectDetection(capture='cars.mp4')  # input your video link
+detector = ObjectDetection(capture='rtsp://admin:QWEqwe123@192.168.1.64:554/ISAPI/Streaming/Channels/101')  # input your video link
 detector()
